@@ -40,11 +40,6 @@ public final class PlayerComponentsFilter extends Filter {
                 "channel_bar_inner"
         );
 
-        final StringFilterGroup channelWaterMark = new StringFilterGroup(
-                Settings.HIDE_CHANNEL_WATERMARK,
-                "featured_channel_watermark_overlay.eml"
-        );
-
         final StringFilterGroup infoCards = new StringFilterGroup(
                 Settings.HIDE_INFO_CARDS,
                 "info_card_teaser_overlay.eml"
@@ -83,7 +78,6 @@ public final class PlayerComponentsFilter extends Filter {
         addPathCallbacks(
                 audioTrackButton,
                 channelBar,
-                channelWaterMark,
                 infoCards,
                 infoPanel,
                 liveChat,
